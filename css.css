@@ -1,0 +1,116 @@
+﻿
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+     background-image: url('background3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+    
+    
+}
+
+
+.bacground-image{
+    
+     
+
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+  height: 30%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+}
+
+
+/* Style the navbar */
+#navbar {
+	overflow: hidden;
+	background-color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+}
+
+	/* Navbar links */
+	#navbar a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px;
+		text-decoration: none;
+
+	}
+
+/* Page content */
+.content {
+	padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: sticky;
+	top: 0;
+
+}
+
+	/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+	.sticky + .content {
+		padding-top: 60px;
+		
+	}
+
+
+
+
+.contentBox {
+	background: rgba(0, 0, 0, .8);
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	border:5px solid orange;
+	margin-top:20px;
+	margin-bottom:20px;
+    max-height: 400px;
+	
+	
+	
+	
+	
+}
+
+p {
+	color: white;
+	margin:10px;
+    
+	
+}
+
+h1 {
+	color: white;
+	
+}
+
+.contentImage {
+   
+	
+	max-width: 400px;
+	max-height: auto;
+	float: right;
+	
+    /*display: inline-block;/*
+    
+	
+}
+
